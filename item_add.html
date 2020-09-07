@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="css/feather.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="main container-fluid">
+        <section class="row">
+            <!------------------------------------------ MENU------------------------------------------  -->
+            <section class="col-12 col-lg-2 menu vh-100 p-2 sidebar" style="overflow-y: scroll;">
+                <div class="sideddbar">
+                    <div class="d-flex justify-content-around align-items-center bg-primary p-2 rounded">
+                        <div>
+                            <i class="feather-shopping-bag text-light h4 mb-0"></i>
+                        </div>
+                        <span class="text-light font-weight-bolder mb-0 text-uppercase">lydia shop</span>
+                        <div class="menu-hide d-block d-lg-none">
+                            <i class="feather-x mb-0 text-light"></i>
+                        </div>
+                    </div>
+                    <div class="nav-menu">
+                        <div class="nav-sub py-3">
+                            <a href="index.html">
+                                <div class="menu-title font-weight-bold p-2">
+                                    <i class="feather-home mr-3 dash"></i>Dashboard
+                                </div>
+                            </a>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items List</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2 now">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Add</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-sub py-3">
+                            <div class="menu-title text-uppercase font-weight-bold text-black-50">Item manage</div>
+                            <div class="menu-item-group">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href=" item_list.html" class="menu-link">
+                                            <i class=" feather-menu mr-1"></i>
+                                            <span>Items Test</span>
+                                        </a>
+                                    </div>
+                                    <div class="mb-1 menu-item p-2">
+                                        <a href="item_add.html" class="menu-link">
+                                            <i class="feather-plus-circle mr-1"></i>
+                                            <span class="mr-1">Items Test</span>
+                                            <span class="badge badge-light badge-pill text-primary">15</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------------------------------ CONTENT------------------------------------------  -->
+            <section class="col-12 col-lg-10 content vh-100">
+                <!-- ---------------------------------------Header S---------------------------------------------- -->
+                <section class="row header">
+                    <section class="col-12">
+                        <div class="p-2 bg-primary rounded d-flex align-items-center justify-content-between mb-2">
+                            <div class="menu-show w-25 d-block d-lg-none">
+                                <i class="feather-menu text-white h4 mb-0"></i>
+                            </div>
+                            <form action="" method="GET" class="d-none d-lg-block">
+                                <div class="form-inline hello">
+                                    <input type="text" class="form-control mr-2" placeholder="Search">
+                                    <button class="btn btn-light"><i
+                                            class="feather-search text-primary font-weight-bold"></i></button>
+                                </div>
+                            </form>
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-light dropdown-toggle p-1 text-primary" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img src="user/me.jpg" alt="" class="rounded-circle user-img">
+                                    NATHAN
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-danger" href="#">Log Out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="feather-home"></i></a></li>
+                                <li class="breadcrumb-item"><a href="item_list.html">Items</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Add Items</li>
+                            </ol>
+                        </nav>
+                    </section>
+                </section>
+                <section class="row">
+                    <div class="col-12 col-md-9">
+                        <div class="card shadow">
+                            <div class="card-body p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="mb-1 font-weight-bolder">Add Item</h4>
+                                            <a href="item_list.html" class="btn btn-primary">
+                                                <i class="feather-menu text-light mb-0"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form action="" class="mt-2">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group mb-2">
+                                                <label for="photo">Photo</label>
+                                                <i class="feather-info ml-2" data-toggle="tooltip"
+                                                    data-placement="right" title="Tooltip on right"></i>
+                                                <input type="file" name="" class="custom-file form-control-sm"
+                                                    id="photo">
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="" class="form-control" id="name">
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="cat">Type</label>
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Type 1</option>
+                                                    <option value="">Type 2</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="cat">Category</label>
+                                                <select name="" id="cat" class="custom-select">
+                                                    <option value="" selected disabled>Select Category</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="subCat">Sub Category</label>
+                                                <select name="" id="subCat" class="custom-select">
+                                                    <option value="" selected disabled>Select Sub Category</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group mb-2">
+                                                        <label for="qty">Qty</label>
+                                                        <input type="text" name="" class="form-control" id="qty">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group mb-2">
+                                                        <label for="cat">Unit</label>
+                                                        <select name="" id="" class="custom-select">
+                                                            <option value="">Pair</option>
+                                                            <option value="">Unit</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="price">Price</label>
+                                                <input type="text" name="" class="form-control" id="price">
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label for="des">Description</label>
+                                                <textarea name="" id="des" cols="" rows="7"
+                                                    class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <button class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            let cat = ['Phone', 'Laptop', 'TV', 'Shoe'];
+            let subCat = [{
+                name: 'iPhone',
+                catid: 0
+            }, {
+                name: 'Vivo',
+                catid: 0
+            }, {
+                name: 'Samsung',
+                catid: 0
+            }, {
+                name: 'Xiaomi',
+                catid: 0
+            }, {
+                name: 'Asus',
+                catid: 1
+            }, {
+                name: 'Mac',
+                catid: 1
+            }, {
+                name: 'Acer',
+                catid: 1
+            }, {
+                name: 'Dell',
+                catid: 1
+            }, {
+                name: 'Sony',
+                catid: 2
+            }, {
+                name: 'TLC',
+                catid: 2
+            }, {
+                name: 'Toshiba',
+                catid: 2
+            }, {
+                name: 'Nike',
+                catid: 3
+            }, {
+                name: 'Adidas',
+                catid: 3
+            }, {
+                name: 'Puma',
+                catid: 3
+            }];
+            cat.map((val, ind) => {
+                $('#cat').append(`<option value=${ind}>${val}</option>`);
+            });
+            subCat.map((val, ind) => {
+                $('#subCat').append(`<option data-catId='${val.catid}'>${val.name}</option>`);
+            });
+            $('#cat').on('change', function () {
+                let cur = $('#cat').val();
+                $('#subCat option').hide();
+                $(`[data-catId=${cur}]`).show();
+            })
+        </script>
+</body>
+
+</html>

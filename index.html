@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="css/feather.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="main container-fluid">
+    <section class="row">
+      <!------------------------------------------ MENU------------------------------------------  -->
+      <section class="col-12 col-lg-2 menu vh-100 p-2" style="overflow-y: scroll;">
+        <div class="d-flex justify-content-around align-items-center p-2 rounded">
+          <div class="bg-primary p-1 rounded">
+            <i class="feather-shopping-bag text-light h4 mb-0"></i>
+          </div>
+          <span class="text-primary font-weight-bolder mb-0 text-uppercase">lydia shop</span>
+          <div class="menu-hide d-block d-lg-none">
+            <i class="feather-x mb-0 text-light"></i>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="nav-sub py-1 my-2">
+            <a href="index.html">
+              <div class="menu-title font-weight-bold p-2 now">
+                <i class="feather-home mr-3 dash"></i>Dashboard
+              </div>
+            </a>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-sub py-2 mb-2 px-2">
+            <div class="menu-title text-uppercase font-weight-bold text-black-50 mb-1">Item manage</div>
+            <div class="menu-item-group">
+              <div class="d-flex justify-content-center flex-column">
+                <div class="menu-item p-1 mb-1">
+                  <a href=" item_list.html" class="menu-link">
+                    <i class=" feather-menu mr-1"></i>
+                    <span>Items List</span>
+                  </a>
+                </div>
+                <div class="menu-item p-1 d-flex justify-content-between align-items-center">
+                  <a href="item_add.html" class="menu-link">
+                    <i class="feather-plus-circle mr-1"></i>
+                    <span class="mr-1">Items Add</span>
+                  </a>
+                  <span class="badge badge-light badge-pill text-primary">15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------ CONTENT------------------------------------------  -->
+      <section class="col-12 col-lg-10 content vh-100 py-0">
+        <!-- ---------------------------------------Header S---------------------------------------------- -->
+        <section class="row header">
+          <section class="col-12">
+            <div class="p-2 bg-primary rounded d-flex align-items-center justify-content-between mb-2">
+              <div class="menu-show w-25 d-block d-lg-none">
+                <i class="feather-menu text-white h4 mb-0"></i>
+              </div>
+              <form action="" method="GET" class="d-none d-lg-block">
+                <div class="form-inline hello">
+                  <input type="text" class="form-control mr-2" placeholder="Search">
+                  <button class="btn btn-light"><i class="feather-search text-primary font-weight-bold"></i></button>
+                </div>
+              </form>
+              <div class="dropdown">
+                <button class="btn btn-sm btn-light dropdown-toggle p-1 text-primary" type="button"
+                  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="user/me.jpg" alt="" class="rounded-circle user-img">
+                  NATHAN
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-danger" href="#">Log Out</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- --------------------------------------Status----------------------------------------------- -->
+        <section class="row">
+          <section class="col-12">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6 col-xl-3 px-1">
+                <div class="card mb-2 shadow-lg status-card">
+                  <div class="card-body p-1" onclick="go('https://www.google.com')">
+                    <div class="row justify-content-around align-items-center">
+                      <div class="col-4">
+                        <i class="feather-shopping-cart h3 mb-0 ml-5 text-primary"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0 h3 ml-4 text-primary counter-up">210</p>
+                        <p class="mb-0 ml-4 text-black-50 text-uppercase" style="font-size: 11px;">Today Order</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 col-xl-3 px-1">
+                <div class="card mb-2 shadow-lg status-card">
+                  <div class="card-body p-1" onclick="go('https://www.google.com')">
+                    <div class="row justify-content-around align-items-center">
+                      <div class="col-4">
+                        <i class="feather-user-check h3 mb-0 ml-5 text-primary"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0 h3 ml-4 text-primary counter-up">120</p>
+                        <p class="mb-0 ml-4 text-black-50 text-uppercase" style="font-size: 11px;">Total User</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-12 col-md-6 col-lg-6 col-xl-3 px-1">
+                <div class="card mb-2 shadow-lg status-card">
+                  <div class="card-body p-1" onclick="go('item_list.html')">
+                    <div class="row justify-content-around align-items-center">
+                      <div class="col-4">
+                        <i class="feather-package h3 mb-0 ml-5 text-primary"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0 h3 ml-4 text-primary counter-up">250</p>
+                        <p class="mb-0 ml-4 text-black-50 text-uppercase" style="font-size: 11px;"> items</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-12 col-md-6 col-lg-6 col-xl-3 px-1">
+                <div class="card mb-2 shadow-lg status-card">
+                  <div class="card-body p-1" onclick="go('https://www.google.com')">
+                    <div class="row justify-content-around align-items-center">
+                      <div class="col-4">
+                        <i class="feather-map-pin h3 mb-0 ml-5 text-primary"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0 h3 ml-4 text-primary counter-up">14</p>
+                        <p class="mb-0 ml-4 text-black-50 text-uppercase" style="font-size: 9px;"> Locations</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="row align-items-end">
+          <!-- -----------------------------------Order and Viewers------------------------------------- -->
+          <div class="col-12 col-xl-7 px-1">
+            <div class="card mb-2">
+              <div class="card-body p-2 shadow">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h4>Orders & Viewers</h4>
+                  <div class="ov-img">
+                    <img src="https://i.pinimg.com/236x/6e/18/ef/6e18efc6b6f1d3f3af43e8fadd2cae72.jpg" class="" alt="">
+                    <img src="https://i.pinimg.com/236x/4e/22/58/4e22585453e2200151b7494b02811151.jpg" class="" alt="">
+                    <img src="https://i.pinimg.com/236x/1f/cb/0a/1fcb0a50a0fc9b934aa6a2b9b3c10d32.jpg" class="" alt="">
+                    <img src="https://i.pinimg.com/236x/1a/1a/8b/1a1a8b5e2e5f3e77649b700a11d81c43.jpg" class="" alt="">
+                    <img src="https://i.pinimg.com/236x/c7/24/1a/c7241afe92f142b6b70e7b4e7c2a11d9.jpg" class="" alt="">
+                  </div>
+                </div>
+                <canvas id="myChart" height="120"></canvas>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------Most Sale------------------------------------------- -->
+          <div class="col-12 col-xl-5 col-md-6 px-1">
+            <div class="card mb-2 card-t shadow">
+              <div class="card-body py-5">
+                <div id="carouselExampleIndicators" class="carousel slide card-item-cus" data-ride="carousel">
+                  <ol class="carousel-indicators" style="margin-bottom: -35px;">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-primary"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-primary"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-primary"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-primary"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="d-flex justify-content-between align-items-end">
+                        <div class="w-25 text-center">
+                          <h5 class="font-weight-bolder">Watch</h5>
+                          <p class="text-black-50">75,000 MMK</p>
+                        </div>
+                        <div class="w-75 text-center">
+                          <img
+                            src="https://i2.wp.com/freepngimages.com/wp-content/uploads/2015/11/Calculator-watch-transparent-background.png?fit=486%2C600"
+                            alt="" class="card-item-img">
+                        </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 50%">50%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between align-items-end">
+                        <div class="w-25 text-center">
+                          <h5 class="font-weight-bolder">Shoe</h5>
+                          <p class="text-black-50">25,000 MMK</p>
+                        </div>
+                        <div class="w-75 text-center">
+                          <img src="https://www.pngmart.com/files/1/Nike-Shoes-Transparent-Background.png"
+                            class="card-item-img">
+                        </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 75%">75%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between align-items-end">
+                        <div class="w-25 text-center">
+                          <h5 class="font-weight-bolder">GPU</h5>
+                          <p class="text-black-50">95,000 MMK</p>
+                        </div>
+                        <div class="w-75 text-center">
+                          <img src="https://www.pngmart.com/files/7/Graphics-Card-PNG-Transparent-Image.png" alt=""
+                            class="card-item-img">
+                        </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 80%">80%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between align-items-end">
+                        <div class="w-50 text-center">
+                          <h5 class="font-weight-bolder">iPhone X</h5>
+                          <p class="text-black-50">1,100,000 MMK</p>
+                        </div>
+                        <div class="w-50 text-center">
+                          <img
+                            src="https://purepng.com/public/uploads/medium/purepng.com-iphone-xiphone-xapplescreen-21530617565funhz.png"
+                            alt="" class="card-item-img" style="transform: rotate(-20deg);">
+                        </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 70%">70%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ----------------------------------Orders and places--------------------------------------- -->
+          <div class="col-12 col-xl-5 col-md-6 px-1">
+            <div class="card mb-2">
+              <div class="card-body shadow p-2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h4>Orders & Places <i class="feather-bar-chart-2 text-primary"></i></h4>
+                </div>
+                <canvas id="op" height="150"></canvas>
+              </div>
+            </div>
+          </div>
+          <!-- ----------------------------------Table-------------------------------------------------- -->
+          <div class="col-12 col-xl-7 px-1">
+            <div class="card px-2 mb-2 pb-0 sub-t">
+              <table id="sub-table" class="table table-hover" style="width:100%;height: 120px;">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Item</th>
+                    <th>Place</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Tiger Nixon</td>
+                    <td>Watch</td>
+                    <td>Edinburgh</td>
+                    <td>61</td>
+                    <td>$320,800</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Garrett Winters</td>
+                    <td>Watch</td>
+                    <td>Tokyo</td>
+                    <td>63</td>
+                    <td>$170,750</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Ashton Cox</td>
+                    <td>Watch</td>
+                    <td>San Francisco</td>
+                    <td>66</td>
+                    <td>$86,000</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Cedric Kelly</td>
+                    <td>GPU</td>
+                    <td>Edinburgh</td>
+                    <td>22</td>
+                    <td>$433,060</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Airi Satou</td>
+                    <td>GPU</td>
+                    <td>Tokyo</td>
+                    <td>33</td>
+                    <td>$162,700</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Brielle Williamson</td>
+                    <td>Shoe</td>
+                    <td>New York</td>
+                    <td>61</td>
+                    <td>$372,000</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Herrod Chandler</td>
+                    <td>Shoe</td>
+                    <td>San Francisco</td>
+                    <td>59</td>
+                    <td>$137,500</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Rhona Davidson</td>
+                    <td>iPhone</td>
+                    <td>Tokyo</td>
+                    <td>55</td>
+                    <td>$327,900</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Colleen Hurst</td>
+                    <td>iPhone</td>
+                    <td>San Francisco</td>
+                    <td>39</td>
+                    <td>$205,500</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Colleen Hurst</td>
+                    <td>iPhone</td>
+                    <td>San Francisco</td>
+                    <td>39</td>
+                    <td>$205,500</td>
+                    <td><i class="feather-trash-2 px-4 text-danger"></i></td>
+                  </tr>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/dash.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+<!-- commit -->
